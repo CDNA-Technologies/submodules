@@ -1,12 +1,10 @@
-package main
+package a
 
 import (
-	"github.com/go-modules-by-example/submodules/b"
 	"fmt"
 )
 
-const Name = b.Name
-
-func main() {
-	fmt.Println(Name)
+// Hello prints hello
+func Hello() {
+	fmt.Println("hello from a")
 }

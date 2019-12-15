@@ -1,3 +1,10 @@
 package b
 
-const Name = "Gopher"
+import (
+	"fmt"
+)
+
+// Hello prints hello
+func Hello() {
+	fmt.Println("hello from b")
+}
