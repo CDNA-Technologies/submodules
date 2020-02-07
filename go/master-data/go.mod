@@ -1,3 +1,3 @@
-module github.com/go-modules-by-example/submodules/master-data
+module github.com/cdna-technologies/submodules/master-data
 
 go 1.13
